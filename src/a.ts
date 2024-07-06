@@ -39,3 +39,12 @@ function runAfter1S(fn: () => void) {
 runAfter1S(() => {
   console.log("hello");
 })
+
+
+//seeing target in action  "target" : "es5" in ts.config.json
+const greeting = (firstName: string) =>  `hello ${firstName}`;
+
+
+
+// In this it will create an explicit and implicitly file 
+const greeting12 = (firstName) =>  `hello ${firstName}`;
